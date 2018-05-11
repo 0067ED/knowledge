@@ -67,6 +67,20 @@ TBD
 
 TBD
 
+
+### 网格系统（Grid System）
+
+> **栅格设计系统**（又称**网格设计系统**、**标准尺寸系统**、**程序版面设计**、**瑞士平面设计风格**、**国际主义平面设计风格**），是一种[平面设计](https://zh.wikipedia.org/wiki/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1 "平面设计")的方法与风格。运用固定的格子设计版面布局，其风格工整简洁，在二战后大受欢迎，已成为今日出版物设计的主流风格之一。 来自[Wiki](https://zh.wikipedia.org/wiki/%E6%A0%85%E6%A0%BC%E8%AE%BE%E8%AE%A1)。
+
+网页设计中网格系统应用的也很多，例如以前常见的基于960px的网格系统。在响应式设计流行之后，常见的CSS库都已经支持基于百分比的网格系统。
+
+| 开源库                                                          | 实现方式       | 浏览器支持成都               |
+| -------------------------------------------------------------- | -------------- | --------------------------- |
+| [purecss](https://purecss.io/)                                 | `inline-block` | IE 8+, iOS 6+, Android 4.x+ |
+| [bootstrap v3](https://getbootstrap.com/docs/3.3/css/#grid)    | `float`        | IE 8+                       |
+| [bootstrap v4](https://getbootstrap.com/docs/4.1/layout/grid/) | `flexbox`      | IE10+, iOS 7+, Android 5.x+ |
+
+
 ### 常见布局问题
 
 - 传统布局方式（float + position）
@@ -79,15 +93,3 @@ TBD
 - 移动端1px解决方案：[https://juejin.im/entry/584e427361ff4b006cd22c7c](https://juejin.im/entry/584e427361ff4b006cd22c7c)
 - 响应式设计中的固定高宽比的实现：[https://spin.atomicobject.com/2015/07/14/css-responsive-square/](https://spin.atomicobject.com/2015/07/14/css-responsive-square/) ，一般用来实现视频等需要事先占位或者不能等比例缩放的元素
 - CSS border实现三角、圆形： [http://www.zhangxinxu.com/wordpress/2010/05/css-border%E4%B8%89%E8%A7%92%E3%80%81%E5%9C%86%E8%A7%92%E5%9B%BE%E5%BD%A2%E7%94%9F%E6%88%90%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B/](http://www.zhangxinxu.com/wordpress/2010/05/css-border%E4%B8%89%E8%A7%92%E3%80%81%E5%9C%86%E8%A7%92%E5%9B%BE%E5%BD%A2%E7%94%9F%E6%88%90%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B/)
-
-### 网格系统
-
-> **栅格设计系统**（又称**网格设计系统**、**标准尺寸系统**、**程序版面设计**、**瑞士平面设计风格**、**国际主义平面设计风格**），是一种[平面设计](https://zh.wikipedia.org/wiki/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1 "平面设计")的方法与风格。运用固定的格子设计版面布局，其风格工整简洁，在二战后大受欢迎，已成为今日出版物设计的主流风格之一。 来自[Wiki](https://zh.wikipedia.org/wiki/%E6%A0%85%E6%A0%BC%E8%AE%BE%E8%AE%A1)。
-
-网页设计中网格系统应用的也很多，例如以前常见的基于960px的网格系统。在响应式设计流行之后，常见的CSS库都已经支持基于百分比的网格系统。
-
-| 开源库                                                          | 实现方式       | 浏览器支持成都               |
-| -------------------------------------------------------------- | -------------- | --------------------------- |
-| [purecss](https://purecss.io/)                                 | `inline-block` | IE 8+, iOS 6+, Android 4.x+ |
-| [bootstrap v3](https://getbootstrap.com/docs/3.3/css/#grid)    | `float`        | IE 8+                       |
-| [bootstrap v4](https://getbootstrap.com/docs/4.1/layout/grid/) | `flexbox`      | IE10+, iOS 7+, Android 5.x+ |
