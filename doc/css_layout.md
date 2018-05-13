@@ -58,9 +58,9 @@ BFC是Web页面的可视化CSS渲染的一部分，是布局过程中生成块�
 - 网格元素（`display`为`grid`或`inline-grid`元素的直接子元素）
 - 多列容器（元素的`column-count`或`column-width`不为`auto`，包括`column-count`为 1）
 - `column-span`为`all`的元素始终会创建一个新的BFC，即使该元素没有包裹在一个多列容器中
-  
 
-**应用的案例1**：[不定宽度的左图又文布局]([http://jsbin.com/gijixiz/1/edit?html,css,output](http://jsbin.com/gijixiz/1/edit?html,css,output)
+
+**应用的案例1**：[不定宽度的左图右文布局]([http://jsbin.com/gijixiz/1/edit?html,css,output](http://jsbin.com/gijixiz/1/edit?html,css,output)
 
 浮动定位和清除浮动时只会应用于同一个BFC内的元素，浮动不会影响其它BFC中元素的布局，而清除浮动只能清除同一BFC中在它前面的元素的浮动。
 
@@ -106,5 +106,6 @@ TBD
 - 用flexbox实现常见布局：[https://philipwalton.github.io/solved-by-flexbox/](https://philipwalton.github.io/solved-by-flexbox/)
 - CSS grid [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - 移动端1px解决方案：[https://juejin.im/entry/584e427361ff4b006cd22c7c](https://juejin.im/entry/584e427361ff4b006cd22c7c)
+- `inline-block`元素空隙解决方案：[https://css-tricks.com/fighting-the-space-between-inline-block-elements/](https://css-tricks.com/fighting-the-space-between-inline-block-elements/)
 - 响应式设计中的固定高宽比的实现：[https://spin.atomicobject.com/2015/07/14/css-responsive-square/](https://spin.atomicobject.com/2015/07/14/css-responsive-square/) ，一般用来实现视频等需要事先占位或者不能等比例缩放的元素
 - CSS border实现三角、圆形： [http://www.zhangxinxu.com/wordpress/2010/05/css-border%E4%B8%89%E8%A7%92%E3%80%81%E5%9C%86%E8%A7%92%E5%9B%BE%E5%BD%A2%E7%94%9F%E6%88%90%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B/](http://www.zhangxinxu.com/wordpress/2010/05/css-border%E4%B8%89%E8%A7%92%E3%80%81%E5%9C%86%E8%A7%92%E5%9B%BE%E5%BD%A2%E7%94%9F%E6%88%90%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B/)
