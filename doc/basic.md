@@ -2,7 +2,7 @@
 
 ### 神文：How browsers work
 
-- 中文版本：[https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/】](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/】)
+- 中文版本：[https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/】)
 - 英文版本：[https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 ### 浏览器合成线程（Composite thread）与CSS动画的性能优化
