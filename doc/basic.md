@@ -2,8 +2,11 @@
 
 ### 神文：How browsers work
 
-- 中文版本：[https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/】)
+- 中文版本：[https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 - 英文版本：[https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+
+### JS运行机制梳理
+- [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://zhuanlan.zhihu.com/p/33230026?utm_medium=social&utm_source=wechat_session&from=singlemessage)
 
 ### 浏览器合成线程（Composite thread）与CSS动画的性能优化
 
